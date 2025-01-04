@@ -56,8 +56,8 @@ st.markdown("""
             🖥️ Main Menu
         </div>
         <div class="menu">
-            <a href="/bau_audit" target="_self">🏠 BAU Audit</a>
-            <a href="/ml_audit" target="_self">📂 ML Audit</a>
+            <a href="/BAU_Audit" target="_self">🙋🏻‍♂️ BAU Audit</a>
+            <a href="/ML_Audit" target="_self">🤖 ML Audit</a>
             <a class="contact" href="mailto:kishorekumar.shanmugasundaram@nielseniq.com" target="_self">📧 Contact</a>
         </div>
     </div>
