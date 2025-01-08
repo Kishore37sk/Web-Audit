@@ -80,7 +80,7 @@ except ValueError:
 uploaded_file = st.file_uploader("Upload an csv File", type=["csv"])
 
 if uploaded_file:
-    df = pd.read_csv(uploaded_file)
+    df = pd.read_csv(uploaded_file, low_memory=False)
 
     # Filter criteria
     df = filter_criteria(df)
